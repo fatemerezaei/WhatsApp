@@ -15,7 +15,7 @@ function myFunc()
     messageBox.innerHTML = message.replace(/ /gm, '');
     event.initUIEvent("input", true, true, window, 1);
     messageBox.dispatchEvent(event);
-
+ 
     sendIcon = document.querySelector('span[data-icon="send"]')
     var mouseEvent = document.createEvent("MouseEvents");
     mouseEvent.initMouseEvent
